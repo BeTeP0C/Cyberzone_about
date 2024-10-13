@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
-type PageProps = {
+type TPageProps = {
   children: React.ReactNode;
 };
 
-export function Page ({ children }: PageProps) {
+export function Page({ children }: TPageProps) {
   return (
     <div className={styles.page}>
       <div className={styles.page_wrapper}>
@@ -13,4 +13,4 @@ export function Page ({ children }: PageProps) {
       </div>
     </div>
   );
-};
+}

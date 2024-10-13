@@ -1,0 +1,39 @@
+@import "../../styles/mixins";
+
+.header {
+  background: rgba(#020202, $alpha: 0.95);
+}
+
+.container {
+  @include container;
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  margin-right: 57px;
+  width: max-content;
+  height: max-content;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  margin-right: 271px;
+}
+
+.button {
+  padding: 12px ;
+  width: 128px;
+  height: 39px;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  color: #181818;
+  background: #FF9900;
+  border-radius: 46px;
+}

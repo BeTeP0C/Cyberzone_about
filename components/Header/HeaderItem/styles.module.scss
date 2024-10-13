@@ -1,0 +1,11 @@
+.item {
+  &:not(:last-child) {
+    margin-right: 45px;
+  }
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(#ffffff, 0.6)
+}
