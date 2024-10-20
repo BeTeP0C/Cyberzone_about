@@ -1,0 +1,79 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 23px;
+  padding: 7px;
+  border-radius: 10px;
+  width: 43px;
+  height: 44px;
+  background: #FF9900;
+}
+
+.achieve {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10.8px;
+  border-radius: 20px;
+  width: 72px;
+  height: 70.2px;
+  background: #FF9900;
+}
+
+.want {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 29px;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background: #FF9900;
+}
+
+.footerApp {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  background: #979797;
+  transition: background 0.3s ease;
+
+  & path {
+    transition: fill 0.3s ease;
+  }
+}
+
+.footerContact {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  background: #979797;
+  transition: background 0.3s ease;
+
+  & path {
+    transition: fill 0.3s ease;
+  }
+}
+
+.footerLogo {
+  margin-bottom: 23px;
+}
+
+.ourcontacts {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  background: #FF9900;
+}

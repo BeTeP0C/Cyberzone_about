@@ -1,0 +1,28 @@
+.item {
+  margin-bottom: 10px;
+
+  &:not(:nth-child(5n)) {
+    margin-right: 9.661%;
+  }
+}
+
+.link {
+  outline-offset: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF80;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  &:active {
+    color: #FF9900;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #FF9900;
+  }
+}

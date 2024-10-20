@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+}
+
+.info {
+  margin-bottom: 43px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.bold {
+  color: #FF9900;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+

@@ -1,0 +1,33 @@
+.content {
+  position: relative;
+  margin-right: 51px;
+  width: 527px;
+  height: 477px;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 250px;
+  z-index: 200;
+}
+
+.img2 {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  width: 230px;
+  height: 300px;
+  z-index: 1000;
+}
+
+.img3 {
+  position: absolute;
+  bottom: 0;
+  left: 121px;
+  width: 300px;
+  height: 300px;
+  z-index: 500 ;
+}

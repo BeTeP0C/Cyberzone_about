@@ -1,0 +1,26 @@
+.item {
+  &:not(:last-child) {
+    margin-right: 45px;
+  }
+}
+
+.link {
+  outline-offset: 4px;
+  font-family: "Syncopate";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(#ffffff, 0.6);
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  &:active {
+    color: #ce7d04;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #FF9900;
+  }
+}

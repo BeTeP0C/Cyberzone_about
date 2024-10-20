@@ -1,0 +1,89 @@
+@import "../../styles/mixins.scss";
+
+.container {
+  @include container;
+  position: relative;
+  padding: 52px 0;
+  background: #0C0C0CCC;
+}
+
+.content {
+  padding: 25px 53px 31px;
+  border-radius: 15px;
+  background: #181818;
+}
+
+.bg_icon {
+  position: absolute;
+  top: 0;
+  right: 114px;
+  width: 34.285%;
+  height: 382px;
+  background: url("../../public/want_bg.png") center center no-repeat;
+  background-size: cover;
+}
+
+.info {
+  max-width: 49.346%;
+}
+
+.heading {
+  margin-bottom: 22px;
+  font-family: "Syncopate";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FF9900;
+}
+
+.descr {
+  margin-bottom: 36px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 11px 21px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  max-width: 58%;
+  width: 100%;
+  background: #D9D9D933;
+
+
+  &:hover {
+    border: 2px solid #FF9900;
+  }
+
+  &:focus-visible {
+    border: 2px solid #FF9900;
+  }
+}
+
+.button_bg {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 29px;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background: #FF9900;
+}
+
+.icon {
+  width: max-content;
+  height: max-content;
+}
+
+.button_text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}

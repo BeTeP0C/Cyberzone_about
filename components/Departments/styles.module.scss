@@ -1,0 +1,29 @@
+@import "../../styles/mixins";
+
+.container {
+  @include container;
+  padding: 100px 50px 80px;
+  background: #0C0C0CCC;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.descr {
+  max-width: 58.78%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  text-align: center;
+  color: #C5C5C5;
+}
+
+.heading {
+  @include heading;
+  margin-bottom: 10px;
+  max-width: 58.78%;
+}

@@ -1,0 +1,43 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+
+}
+
+.title {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #ffffff;
+}
+
+.bold {
+  color: #FF9900;
+}
+
+.input {
+  padding: 17px 12px 20px;
+  outline: none;
+  border: 2px solid #747474;
+  border-radius: 5px;
+  background: transparent;
+  resize: none;
+  width: 100%;
+  min-height: 158px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF99;
+  transition: border 0.3s ease;
+  caret-color: #FF9900;
+
+  &:hover, &:focus-visible, &:active {
+    border: 2px solid #FF9900;
+  }
+}
+
+.management {
+  position: relative;
+}

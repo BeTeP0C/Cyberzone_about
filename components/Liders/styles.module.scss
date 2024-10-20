@@ -1,0 +1,7 @@
+@import "../../styles/mixins";
+
+.container {
+  @include container;
+  padding: 46px 50px 70px;
+  background: #040404;
+}

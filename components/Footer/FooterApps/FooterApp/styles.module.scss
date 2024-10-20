@@ -1,0 +1,41 @@
+.item {
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.link {
+  outline: none;
+}
+
+.link:hover {
+  & span {
+    background: #FF9900;
+  }
+
+  & path {
+    fill: #ffffff;
+  }
+}
+
+.link:active {
+  & span {
+    background: #945a02;
+  }
+
+  & path {
+    fill: #ffffff;
+  }
+}
+
+.link:focus-visible {
+  & span {
+    background: #FF9900;
+  }
+
+  & path {
+    fill: #ffffff;
+  }
+}
+
+

@@ -1,0 +1,61 @@
+.button {
+  position: relative;
+  padding: 15px 26px;
+  width: 160px;
+  outline: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: "Syncopate";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  background: #bb510f;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background: #FF9900;
+    opacity: 1;
+    z-index: 100;
+    transition: background 0.3s ease;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 153, 0, 1) 0%, rgb(255, 72, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+  }
+
+  &:hover::before, &:focus-visible::before {
+    opacity: 1;
+  }
+
+  &:active {
+    &::before {
+      opacity: 0;
+    }
+
+    &::after {
+      opacity: 0;
+    }
+  }
+}
+
+.button_text {
+  position: relative;
+  z-index: 10000;
+}

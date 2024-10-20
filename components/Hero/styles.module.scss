@@ -1,0 +1,23 @@
+@import "../../styles/mixins.scss";
+
+.container {
+  @include container;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 28px;
+  height: 360px;
+  background: url('../../public/hero_background.png') center center no-repeat;
+  background-size: cover;
+
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 40.52%);
+}

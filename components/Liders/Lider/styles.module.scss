@@ -1,0 +1,55 @@
+.item {
+  position: relative;
+  display: flex;
+  padding: 0 16px 26px;
+  margin-bottom: 26px;
+  align-items: end;
+  border-radius: 15px;
+  width: 280px;
+  min-height: 430px;
+
+  &:not(:last-child) {
+    margin-right: 26px;
+  }
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nick {
+  margin-bottom: 5px;
+  font-family: "Syncopate";
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.name {
+  margin-bottom: 16.5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.liderName {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF9900;
+}

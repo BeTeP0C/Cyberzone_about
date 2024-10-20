@@ -1,0 +1,8 @@
+@import "../../styles/mixins";
+.container {
+  @include container;
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 50px 0;
+  background: rgba(#0C0C0C, 0.8);
+}
